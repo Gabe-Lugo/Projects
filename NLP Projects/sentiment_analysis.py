@@ -288,6 +288,7 @@ class YelpClassificationNeuralNetwork(StackedLogisticRegressionNetwork):
                 print(f"Epoch {epoch+1}, Dev Loss: {loss:.4f}, Dev Acc: {accuracy:.4f}")
 
 """
+in util.py:
 def evaluate(model, examples_to_array, embeddings, text: str):
     tokens = text.lower().split()
     x = examples_to_array([tokens], embeddings)
