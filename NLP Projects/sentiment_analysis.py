@@ -6,7 +6,7 @@ Includes a demo with 2D XOR dataset using logistic regression and a simple neura
 Utilities provided for dataset loading, embedding handling, and model validation
 
 ├── util.py
-│   └── contains: load_embeddings, load_dataset, check_parameter_shapes, check_forward_pass, check_backward_pass, check_predict, check_examples_to_array, plotting helpers
+│   └── contains: load_embeddings, load_dataset, check_parameter_shapes, check_forward_pass, check_backward_pass, check_predict, check_examples_to_array, plotting helpers, evaluate()
 ├── data/
 │   ├── glove.dataset_small.50d.txt    # pre-trained GloVe word embeddings
 │   ├── train.csv                      # training set: text reviews + labels
