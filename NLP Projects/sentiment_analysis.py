@@ -1,4 +1,10 @@
 """
+3-layer neural network with ReLU activations for Yelp review sentiment classification
+Loads pre-trained GloVe embeddings and converts reviews into averaged embedding vectors
+Trains using mini-batch gradient descent with evaluation on train/dev splits
+Includes a demo with 2D XOR dataset using logistic regression and a simple neural net
+Utilities provided for dataset loading, embedding handling, and model validation
+
 ├── util.py
 │   └── contains: load_embeddings, load_dataset, check_parameter_shapes, check_forward_pass, check_backward_pass, check_predict, check_examples_to_array, plotting helpers
 ├── data/
